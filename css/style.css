@@ -1,29 +1,6 @@
 /* My cool CSS Assignment */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
+
 /* Body Style */
 body {
 	line-height: 1;
@@ -47,11 +24,12 @@ table {
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
-  margin-top: -10px;
   position: fixed;
+	margin-top: -10px;
   width: 100%;
+	padding-bottom: 40px;
 }
 
 section {
@@ -66,8 +44,9 @@ h1 {
 
 .example, h3 {
   padding-top: 30px;
-  text-align: center
+  text-align: center;
 }
+
 
 h3 {
   font-size: 1.3em;
@@ -81,11 +60,9 @@ h3 {
   width: 100%;
 }
 
+/* New element added with dif background-color*/
 .element1 {
   background-color: #5f5fc3;
-  height: 100px;
-  margin: 10px 0;
-  width: 100%;
 }
 
 /* Thanks for reviewing my work */
